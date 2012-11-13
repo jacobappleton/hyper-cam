@@ -16,12 +16,13 @@
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http:www.gnu.org/licenses/>.
 
- This software was developed as part of the Scramspace Flight Experiment I,
- funded by the Australian Space Research Program and involving:
+ This software was developed as part of the Scramspace I Flight Experiment,
+ funded by the Australian Space Research Program -
+ http:www.space.gov.au/AUSTRALIANSPACERESEARCHPROGRAM and involving:
  - The University of Queensland (UQ) - www.uq.edu.au
  - Australian Government Department of Defence - Defence Science and
-   Technology Organisation (DSTO) - http:www.dsto.defence.gov.au
- - German Aerospace Center (DLR) - http:www.dlr.de/en/
+   Technology Organisation (DSTO) - www.dsto.defence.gov.au
+ - German Aerospace Center (DLR) - www.dlr.de/en/
  - University of Southern Queensland (USQ) - www.usq.edu.au
  - BAE Systems - www.baesystems.com
  - Japan Aerospace Exploration Agency (JAXA) - www.jaxa.jp/index_e.html
@@ -30,7 +31,7 @@
  - Australian Youth Aerospace Association (AYAA) - www.ayaa.com.au
  - Centro Italiano Ricerche Aerospaziali (CIRA) - www.cira.it/en
  - The University of Adelaide - www.adelaide.edu.au
- - Teakle Composites - http:www.cira.colostate.edu
+ - Teakle Composites - www.cira.colostate.edu
  - The University of New South Wales (UNSW) - www.unsw.edu.au/
 
  You can contact Jacob Appleton via email at: jacob.appleton@uqconnect.edu.au
@@ -44,7 +45,7 @@
  1. Install v4l2 (for Ubuntu: sudo apt-get install libv4l-dev, Angstrom: opkg
     install libv4l-dev)
  2. Install libjpeg-turbo from source. Available at: 
-    http://libjpeg-turbo.virtualgl.org/
+    http:libjpeg-turbo.virtualgl.org/
  2. Run "make" in the root directory of the project.
  2. Run camera with the following usage:
  	
