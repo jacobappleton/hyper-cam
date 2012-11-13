@@ -59,15 +59,18 @@
 	#include <stdint.h>
 	#include "../headers/util.h"
 	#include <linux/serial.h>
-
+	// ------------------------------------------------------------------------
+	// TO CHANGE BAUD RATE, MODIFY THIS MACRO
 	#ifndef BAUDRATE
-		#define BAUDRATE B115200
-//460800
+		#define BAUDRATE B460800
 	#endif
-
+	// ------------------------------------------------------------------------
+	// ------------------------------------------------------------------------
+	// TO CHANGE SERIAL PORT, MODIFY THIS MACRO
 	#ifndef MODEMDEVICE
-		#define MODEMDEVICE "/dev/ttyUSB0"
+		#define MODEMDEVICE "/dev/ttyS0"
 	#endif
+	// ------------------------------------------------------------------------
 
 	#ifndef TELEMETRY_HEADER
 		#define TELEMETRY_HEADER 0xAA

@@ -43,7 +43,11 @@
  
  To run this software, perform the following:
  
- 1. Run "make" in the root directory of the project.
+ 1. Install v4l2 (for Ubuntu: sudo apt-get install libv4l-dev, Angstrom: opkg
+    install libv4l-dev)
+ 2. Install libjpeg-turbo from source. Available at: 
+    http://libjpeg-turbo.virtualgl.org/
+ 2. Run "make" in the root directory of the project.
  2. Run camera with the following usage:
  	
  		camera cameraDevice JpegQuality fps bufferSize
