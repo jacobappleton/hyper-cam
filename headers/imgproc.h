@@ -1,5 +1,5 @@
 // hyper-cam - Interfaces camera sensor with serial communications for
-// autonomous image capture of scientific experiments on an embedded Linux
+// autonomous image capture of scientific experiments on embedded Linux
 //
 // Image processing functions.
 //
